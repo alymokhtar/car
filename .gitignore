@@ -2,7 +2,6 @@
 node_modules/
 .env
 .env.*
-!.env.example
 dist/
 build/
 .vscode/
@@ -23,15 +22,3 @@ desktop.ini
 
 # IDE
 /.vscode/
-
-# Firebase
-.firebase/
-firebase-debug.log
-firestore-debug.log
-
-# Test files (optional - remove if you want to commit tests)
-*.test.js
-
-# Temporary text files
-*.txt
-!README.txt
